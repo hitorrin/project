@@ -1,0 +1,25 @@
+.footer{
+    background-color: black;
+   color:white;
+   height:133px;
+   display: grid;
+  
+}
+.content{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin-left:75px;
+    margin-right:75px;
+}
+
+.icons{
+    justify-content: center;
+  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer__copyright{
+  align-items: center;
+    display: grid;
+    justify-items: end;
+}

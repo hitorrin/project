@@ -1,0 +1,44 @@
+.formcontrol{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none; 
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent; 
+    outline: none;
+    transition: 0.3s;
+}
+
+.formlabel{
+    font-size:12px;
+    color: darkgrey;
+}
+
+.button{
+    background-color: #00AAFF;
+    border:none;
+    border-radius: 30px;
+    height: 40px;
+    width: 179px;
+    color:white;
+    font-weight: bold;
+}
+
+.buttonContainer{
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.registration{
+    margin:20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.nav__item:active, /* активная/посещенная ссылка */
+.nav__item:hover,  /* при наведении */
+.nav__item{
+ 
+  color: #666;
+
+}

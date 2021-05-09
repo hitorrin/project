@@ -1,0 +1,54 @@
+.add__imageContainer__image{
+  height: 285px;
+  width: 265px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+  border:solid 1px gray;
+}
+
+.add{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-width:265px;
+    width: 100%;
+    border-radius: 25px;
+    max-height: 350px;
+    height: 100%;
+}
+
+.info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+padding: 0px 0px 0px 15px;
+align-items: center;
+border:solid 1px gray;
+border-radius:  0px 0px 25px 25px;
+}
+
+.imageContainer{
+    border-radius: 25px 25px 0px 0px;
+    display: grid;
+    align-items: center;
+    background-color: #C4C4C4;
+    height: 285px;
+
+}
+
+.add__cost{
+font-size: 24px;
+font-weight: bold;
+}
+
+.add__name{
+align-self: start;
+}
+
+
+.addLink:active, /* активная/посещенная ссылка */
+.addLink:hover,  /* при наведении */
+.addLink{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+
+}
